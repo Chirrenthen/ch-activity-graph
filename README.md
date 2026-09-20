@@ -4,25 +4,18 @@
 
 <h1 align="center">Github Readme Activity Graph</h1>
 
-<a href="https://jb.gg/OpenSourceSupport">
+<a href="[https://jb.gg/OpenSourceSupport](https://jb.gg/OpenSourceSupport)">
 <p align="center">
-    <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg" height="150">
+    <img src="[https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)" height="150">
 </p>
 </a>
-<h3 align="center"><a href="https://jb.gg/OpenSourceSupport">Supported by JetBrains</a></h3>
+<h3 align="center"><a href="[https://jb.gg/OpenSourceSupport](https://jb.gg/OpenSourceSupport)">Supported by JetBrains</a></h3>
 A dynamically generated activity graph to show your GitHub activities of last 31 days.
-
-### ⚠️ NOTICE: DEPLOYMENT MOVED ⚠️
-
-The canonical deployment is now `https://github-readme-activity-graph.vercel.app`. Previous deployments at `https://activity-graph.herokuapp.com` (Heroku free tier discontinued) and `https://github-readme-activity-graph.cyclic.app` (Cyclic.sh shut down in early 2025) are no longer reachable. For background see [issue #197](https://github.com/Ashutosh00710/github-readme-activity-graph/issues/197#issuecomment-1560633754).
-
-Please refer to the updated link [here](#how-to-use)
 
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
 - [How to Use](#how-to-use)
-    - [Attention ⚠](#attention-)
 - [Use themes](#use-themes)
 - [Available Themes](#available-themes)
 - [Customization](#customization)
@@ -47,34 +40,32 @@ Just paste the following URL in your profile readme and you are good to go.
 **Pass your `username` in the URL**
 
 ```md
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ashutosh00710)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Chirrenthen's github activity graph](https://ch-activity-graph.vercel.app/graph?username=Chirrenthen)](https://github.com/Chirrenthen/ch-activity-graph)
 ```
-
-### [Attention ⚠](#deploy-on-your-own-replit-instance)
 
 ## Use themes
 
-_`username=ashutosh00710&theme=theme_name`_
+_`username=Chirrenthen&theme=theme_name`_
 
 ```md
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ashutosh00710&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Chirrenthen's github activity graph](https://ch-activity-graph.vercel.app/graph?username=Chirrenthen&theme=minimal)](https://github.com/Chirrenthen/ch-activity-graph)
 ```
 
 [Manual Customization](#customization) is also available
 
 ## Available Themes
 
-|            Name            |                            Preview                             |
+|            Name            |                               Preview                                |
 | :------------------------: | :------------------------------------------------------------: |
 | **Default (cotton candy)** |    <img src="./asset/default.svg" height=250 alt="graph"/>     |
-|         **react**          |     <img src="./asset/react.png" height=250 alt="graph"/>      |
-|       **react-dark**       |   <img src="./asset/react-dark.svg" height=250 alt="graph"/>   |
-|         **github**         |     <img src="./asset/github.svg" height=250 alt="graph"/>     |
-|     **github-compact**     | <img src="./asset/github-compact.svg" height=250 alt="graph"/> |
-|         **xcode**          |     <img src="./asset/xcode.svg" height=250 alt="graph"/>      |
-|         **rogue**          |     <img src="./asset/rogue.svg" height=250 alt="graph"/>      |
-|         **merko**          |     <img src="./asset/merko.png" height=250 alt="graph"/>      |
-|          **vue**           |      <img src="./asset/vue.png" height=250 alt="graph"/>       |
+|          **react**         |     <img src="./asset/react.png" height=250 alt="graph"/>      |
+|        **react-dark**      |    <img src="./asset/react-dark.svg" height=250 alt="graph"/>   |
+|          **github**        |     <img src="./asset/github.svg" height=250 alt="graph"/>     |
+|      **github-compact**    | <img src="./asset/github-compact.svg" height=250 alt="graph"/> |
+|          **xcode**         |     <img src="./asset/xcode.svg" height=250 alt="graph"/>      |
+|          **rogue**         |     <img src="./asset/rogue.svg" height=250 alt="graph"/>      |
+|          **merko**         |     <img src="./asset/merko.png" height=250 alt="graph"/>      |
+|           **vue**          |      <img src="./asset/vue.png" height=250 alt="graph"/>       |
 |      **tokyo-night**       |  <img src="./asset/tokyo-night.png" height=250 alt="graph"/>   |
 |     **high-contrast**      | <img src="./asset/high-contrast.png" height=250 alt="graph"/>  |
 
@@ -86,26 +77,26 @@ Customize the appearance of your Activity Graph however you want with URL params
 
 #### Common Options
 
-|   Arguments    |                  Description                  |                 Type of Value                  |
+|    Arguments     |                 Description                  |                 Type of Value                  |
 | :------------: | :-------------------------------------------: | :--------------------------------------------: |
-|   `bg_color`   |            card's background color            |             hex code (without `#`)             |
-| `border_color` |              card's border color              |             hex code (without `#`)             |
-|    `color`     |            graph card's text color            |             hex code (without `#`)             |
-| `title_color`  |           graph card's title color            |             hex code (without `#`)             |
-|     `line`     |              graph's line color               |             hex code (without `#`)             |
-|    `point`     |         color of points on line graph         |             hex code (without `#`)             |
-|  `area_color`  |       color of the area under the graph       |             hex code (without `#`)             |
-|     `area`     |          shows area under the graph           |           boolean (default: `false`)           |
+|    `bg_color`    |             card's background color           |              hex code (without `#`)              |
+| `border_color` |              card's border color              |              hex code (without `#`)              |
+|     `color`      |             graph card's text color           |              hex code (without `#`)              |
+| `title_color`  |            graph card's title color           |              hex code (without `#`)              |
+|      `line`      |                graph's line color             |              hex code (without `#`)              |
+|     `point`      |          color of points on line graph        |              hex code (without `#`)              |
+|   `area_color`   |         color of the area under the graph     |              hex code (without `#`)              |
+|      `area`      |           shows area under the graph          |           boolean (default: `false`)           |
 | `hide_border`  |   makes the border of the graph transparent   |           boolean (default: `false`)           |
-|  `hide_title`  |       sets the title to an empty string       |           boolean (default: `false`)           |
-| `custom_title` |          set the title to any string          |                     string                     |
-|    `theme`     | name of [available themes](#available-themes) |                     string                     |
-|    `radius`    |            border radius of graph             |            number (0-16 inclusive)             |
-|    `height`    |              height of the graph              |           number (200-600 inclusive)           |
-|     `days`     |      number of to days display on graph       | number between (1 - 90) [Recommended below 40] |
-|     `from`     |       date from which the graph starts        |              format `YYYY-MM-DD`               |
-|      `to`      |         date where the graph will end         |              format `YYYY-MM-DD`               |
-|     `grid`     |                   show grid                   |           boolean (default: `true`)            |
+|   `hide_title`   |        sets the title to an empty string      |           boolean (default: `false`)           |
+| `custom_title` |           set the title to any string         |                     string                     |
+|     `theme`      | name of [available themes](#available-themes) |                     string                     |
+|     `radius`     |            border radius of graph             |            number (0-16 inclusive)             |
+|     `height`     |               height of the graph             |            number (200-600 inclusive)          |
+|      `days`      |     number of to days display on graph        | number between (1 - 90) [Recommended below 40] |
+|      `from`      |        date from which the graph starts       |              format `YYYY-MM-DD`               |
+|       `to`       |          date where the graph will end        |              format `YYYY-MM-DD`               |
+|      `grid`      |                    show grid                  |            boolean (default: `true`)           |
 
 ⚠ **For `custom_title` please make sure that you are using %20 for spaces**
 
@@ -114,13 +105,13 @@ Example:
 **`custom_title=This%20is%20a%20title`**
 
 ```md
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ashutosh00710&custom_title=This%20is%20a%20title&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Chirrenthen's github activity graph](https://ch-activity-graph.vercel.app/graph?username=Chirrenthen&custom_title=This%20is%20a%20title&hide_border=true)](https://github.com/Chirrenthen/ch-activity-graph)
 ```
 
 **Example:**
 
 ```md
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ashutosh00710&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&border_color=ff0000)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Chirrenthen's github activity graph](https://ch-activity-graph.vercel.app/graph?username=Chirrenthen&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&border_color=ff0000)](https://github.com/Chirrenthen/ch-activity-graph)
 ```
 
 ## Deploy on your own Replit instance
@@ -130,11 +121,11 @@ Example:
 
 #### Follow the steps
 
-1. Sign in to Replit or create a new account at https://replit.com
+1. Sign in to Replit or create a new account at [https://replit.com](https://replit.com)
 2. Click the Deploy button below
 
- <a href="https://repl.it/github/Ashutosh00710/github-readme-activity-graph">
-   <img alt="Run on Repl.it" src="https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph" style="height: 40px; width: 190px;" />
+ <a href="[https://repl.it/github/Ashutosh00710/github-readme-activity-graph](https://repl.it/github/Ashutosh00710/github-readme-activity-graph)">
+   <img alt="Run on Repl.it" src="[https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph](https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph)" style="height: 40px; width: 190px;" />
  </a>
 
 3. On the page that comes up, choose language as `Node.js` and then click `Import from GitHub` Button
@@ -185,7 +176,7 @@ Example:
 
 Alternatively, click the button below and follow the instructions.
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Ashutosh00710/github-readme-activity-graph)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Chirrenthen/ch-activity-graph)
 
 After the deployment is complete:
 
@@ -201,14 +192,14 @@ After the deployment is complete:
 Now just add the following to your profile readme and you're good to go.
 
 ```md
-![Github Activity Graph](<{your_own_domain_name}.vercel.app>/graph?username=<username>)
+[![Chirrenthen's github activity graph](https://ch-activity-graph.vercel.app/graph?username=Chirrenthen)](https://github.com/Chirrenthen/ch-activity-graph)
 ```
 
 </details>
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/Ashutosh00710/github-readme-activity-graph/blob/main/CONTRIBUTING.md). Directions are included for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/Chirrenthen/ch-activity-graph/blob/main/CONTRIBUTING.md). Directions are included for opening issues, coding standards, and notes on development.
 
 ## Core Team 💻
 
@@ -226,16 +217,18 @@ Please read through our [contributing guidelines](https://github.com/Ashutosh007
         <a href="#documentation" title="Documentation">📖</a>
         <a href="#ideas" title="Ideas & Planning">🤔</a>
         <a href="#testing" title="Testing">⚠</a>
+        <br />
+        <sub title="Project">Original Project Author</sub>
     </td>
     <td align="center">
-        <a href="http://github.com/kshitij978">
+        <a href="https://github.com/Chirrenthen">
             <img src="https://avatars.githubusercontent.com/u/42491256?s=460&u=db0c5e26632c9f4917db50e714cd7552c1559ba8&v=4" width="100px;" alt=""/>
             <br />
-            <sub><b>Kshitij Srivastava</b></sub>
+            <sub><b>Chirrenthen P.</b></sub>
         </a>
         <br />
         <a href="#projectManagement" title="Project Management">📆</a>
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=kshitij978" title="Code">💻</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=Chirrenthen" title="Code">💻</a>
         <a href="#documentation" title="Documentation">📖</a>
         <a href="#design" title="Design">🎨</a>
     </td>
@@ -258,7 +251,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Upamanyu Das</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=tintindas" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=tintindas" title="Documentation">📖</a>
     </td>
     <td align="center">
         <a href="https://github.com/DenverCoder1">
@@ -267,8 +260,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Jonah Lawrence</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=DenverCoder1" title="Code">💻</a>
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=DenverCoder1" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=DenverCoder1" title="Code">💻</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=DenverCoder1" title="Documentation">📖</a>
     </td>
     <td align="center">
         <a href="https://github.com/MilindModi">
@@ -277,7 +270,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Milind Modi</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=MilindModi" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=MilindModi" title="Documentation">📖</a>
     </td>
     <td align="center">
         <a href="https://github.com/Vaibhav-afk">
@@ -286,8 +279,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Vaibhav</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=Vaibhav-afk" title="Code">💻</a>
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=Vaibhav-afk" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=Vaibhav-afk" title="Code">💻</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=Vaibhav-afk" title="Documentation">📖</a>
     </td>
     <td align="center">
         <a href="https://github.com/jgphilpott">
@@ -296,8 +289,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Jacob Philpott</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=jgphilpott" title="Code">💻</a>
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=jgphilpott" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=jgphilpott" title="Code">💻</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=jgphilpott" title="Documentation">📖</a>
     </td>
     <td align="center">
         <a href="https://github.com/SonuKumar81800">
@@ -306,8 +299,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Sonu Kumar</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=SonuKumar81800" title="Style">🎨</a>
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=SonuKumar81800" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=SonuKumar81800" title="Style">🎨</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=SonuKumar81800" title="Documentation">📖</a>
     </td>
     <td align="center">
         <a href="https://github.com/andinoriel">
@@ -316,7 +309,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Mykola Symon</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=andinoriel" title="Code">💻</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=andinoriel" title="Code">💻</a>
     </td>
   </tr>
   <tr>
@@ -327,7 +320,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Sreyan Ghosh</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=sreyan-ghosh" title="Style">🎨</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=sreyan-ghosh" title="Style">🎨</a>
     </td>
     <td align="center">
         <a href="https://github.com/Anant-mishra1729">
@@ -336,7 +329,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Anant Mishra</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=Anant-mishra1729" title="Style">🎨</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=Anant-mishra1729" title="Style">🎨</a>
     </td>
     <td align="center">
         <a href="https://github.com/SKewLinez">
@@ -345,7 +338,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Skyler</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=SKewLinez" title="Style">🎨</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=SKewLinez" title="Style">🎨</a>
     </td>
     <td align="center">
         <a href="https://github.com/eliely">
@@ -354,7 +347,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Iryna Mykoliuk</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=eliely" title="Style">🎨</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=eliely" title="Style">🎨</a>
     </td>
     <td align="center">
         <a href="https://github.com/DalpatRathore">
@@ -363,8 +356,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Dalpat Rathore</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=DalpatRathore" title="Style">🎨</a>
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=DalpatRathore" title="Code">💻</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=DalpatRathore" title="Style">🎨</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=DalpatRathore" title="Code">💻</a>
     </td>
     <td align="center">
         <a href="https://github.com/fishmandev">
@@ -373,7 +366,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>Dmitriy Fishman</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=fishmandev" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=fishmandev" title="Documentation">📖</a>
     </td>
     <td align="center">
         <a href="https://github.com/MagicLike">
@@ -382,11 +375,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>MagicLike</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=MagicLike" title="Style">🎨</a>
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=MagicLike" title="Code">💻</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=MagicLike" title="Style">🎨</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=MagicLike" title="Code">💻</a>
     </td>
   </tr>
-  </tr>
+  <tr>
     <td align="center">
         <a href="https://github.com/OnkarRuikar">
             <img src="https://avatars.githubusercontent.com/u/87750369?v=4" width="100px;" alt=""/>
@@ -394,7 +387,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>OnkarRuikar</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=OnkarRuikar" title="Code">💻</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=OnkarRuikar" title="Code">💻</a>
     </td>
     <td align="center">
         <a href="https://github.com/valetzx">
@@ -403,7 +396,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>valetzx</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=valetzx" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=valetzx" title="Documentation">📖</a>
     </td>
     <td align="center">
         <a href="https://github.com/tranthaituananh">
@@ -412,8 +405,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>tranthaituananh</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=tranthaituananh" title="Style">🎨</a>
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=tranthaituananh" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=tranthaituananh" title="Style">🎨</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=tranthaituananh" title="Documentation">📖</a>
     </td>
     <td align="center">
         <a href="https://github.com/polekstulod">
@@ -422,7 +415,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>polekstulod</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=polekstulod" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=polekstulod" title="Documentation">📖</a>
     </td>
     <td align="center">
         <a href="https://github.com/jmloudis">
@@ -431,7 +424,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>jmloudis</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/pulls?q=author%3Ajmloudis+" title="Code">💻</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/pulls?q=author%3Ajmloudis+" title="Code">💻</a>
     </td>
     <td align="center">
         <a href="https://github.com/fabianocouto">
@@ -440,8 +433,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
             <sub><b>fabianocouto</b></sub>
         </a>
         <br />
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=fabianocouto" title="Code">💻</a>
-        <a href="https://github.com/Ashutosh00710/github-readme-activity-graph/commits?author=fabianocouto" title="Documentation">📖</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=fabianocouto" title="Code">💻</a>
+        <a href="https://github.com/Chirrenthen/ch-activity-graph/commits?author=fabianocouto" title="Documentation">📖</a>
     </td>
   </tr>
 </table>
@@ -449,21 +442,19 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
+<!-- ALL-CONTRIBUTORS-LIST:START -->
+<!-- markdownlint-disable -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## Resources Used to build this project
 
-|      Purpose       |  Library Name   |                   Link                    |
+|     Purpose       |  Library Name   |                   Link                    |
 | :----------------: | :-------------: | :---------------------------------------: |
-| Graph Construction | **CHARTIST.JS** | <https://github.com/gionkunz/chartist-js> |
+| Graph Construction | **CHARTIST.JS** | [https://github.com/gionkunz/chartist-js](https://github.com/gionkunz/chartist-js) |
 
 </br>
 <hr/>
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Ashutosh00710/github-readme-activity-graph&type=Timeline)](https://star-history.com/#Ashutosh00710/github-readme-activity-graph&Timeline)
-
-### Made with ❤ and TypeScript <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" width="25">
+### Made with ❤ and TypeScript <img src="[https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg](https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg)" width="25">
